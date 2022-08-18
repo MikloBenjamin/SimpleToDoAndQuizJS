@@ -1,0 +1,32 @@
+#date{
+    width: 25%;
+    height: 99%;
+}
+#year{
+    float: right;
+    width: 99%;
+    border: 2px solid black;
+    height: 28.5%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#day{
+    float: right;
+    width: 99%;
+    border: 2px solid black;
+    height: 28.5%;
+    border-radius: 5px;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+#time{
+    float: right;
+    width: 99%;
+    border: 2px solid black;
+    height: 28.5%;
+    border-radius: 5px;
+    margin-top: 9px;
+    font-size: 20px;
+    margin-top: 3px;
+}

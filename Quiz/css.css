@@ -1,0 +1,108 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    width: 98vw;
+    height: 98vh;
+    background: linear-gradient(rgb(138, 16, 16), rgb(68, 118, 168));
+    background-repeat: no-repeat;
+}
+
+#container{
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 2%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: linear-gradient(rgb(183, 184, 153), rgb(228, 215, 215));
+}
+
+#question{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(208, 255, 80), rgb(78, 127, 175), rgb(208, 255, 80));
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 1.1em;
+}
+
+h1{
+    display: block;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: rgb(54, 56, 58); }
+    50% { color: rgb(53, 45, 94); }
+    100% { color: rgb(145, 34, 34); }
+}
+
+ul{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 50%;
+    display: block;
+    /*border: 2px solid black;*/
+}
+
+li{
+    margin-top: 2%;
+    width: 90%;
+    height: 20.5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1.1em;
+    background: rgb(141, 193, 245);
+}
+li:hover{
+    cursor: pointer;
+    background: rgb(253, 253, 253);
+}
+
+#bs{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: 5%;
+    color: white;
+}
+
+#start{
+    float: left;
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rgb(32, 84, 136);
+    color: white;
+}
+#start:hover{
+    background: rgb(88, 20, 20);
+    cursor: pointer;
+}
+
+#reset{
+    float: left;
+    margin-left: 40%;
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rgb(32, 84, 136);
+    color: white;
+    visibility: hidden;
+}
+#reset:hover{
+    background: rgb(88, 20, 20);
+    cursor: pointer;
+}

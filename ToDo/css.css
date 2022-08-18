@@ -1,0 +1,151 @@
+body{
+  width: 98vw;
+  height: 97vh;
+  background: linear-gradient(#8d0505,#434b52);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.btnremove{
+  float:right;
+  margin: 5px 10px 2px 2px;
+  width:70px;
+  height: 20px;
+  border-radius: 5px;
+}
+.row1{
+  width:99%;
+  height: 26%;
+}
+.col1{
+  float:left;
+  width: 26%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 99%;
+}
+.col2{
+  float:left;
+  width:47.6%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; 
+  height: 99%;
+}
+.col3{
+  float: right;
+  width: 26%;
+  height:99%;
+  border-bottom: 2px solid black;
+}
+.row2{
+  width:98%;
+  height:auto;
+}
+#input{
+  float:left;
+  width:70%;
+  height:20%;
+  border-radius: 15px;
+  margin-left:5px;
+}
+#btn{
+  float:left;
+  width:20%;
+  height:25%;
+  border-radius:15px;
+  margin-left:5px;
+}
+#listul{
+  width: 93%;
+  height:auto;
+  border: 2px solid #271409;
+  float: left;
+  border-radius: 10px;
+}
+li{
+  text-align:left;
+  width:98%;
+  height: 5%;
+  float:right;
+  font-size: 24px;
+  margin: 2px 0 2px 2px;
+  border-top:2px solid #271409;
+  border-bottom:2px solid #271409;
+}
+
+@media only screen and (max-height: 520px){
+  .col1{
+    display: none;
+  }
+  .col2{
+    float:left;
+    width: 73%;
+    border-right: 2px solid black;
+    border-left: 2px solid black; 
+    height: 98%;
+  }
+  .col3{
+    display: block;
+    float: left;
+    width: 26%;
+    height:98%;
+    border-bottom: 2px solid black;
+  }
+}
+@media only screen and (max-height: 450px){
+  .col1, .col3{
+    display: none;
+  }
+  .col2{
+    float:left;
+    width: 100%;
+    border-right: 2px solid black;
+    border-left: 2px solid black; 
+    height: 98%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .row1{
+    width: 91.5%;
+    height: 20%;
+  }
+  .row2{
+    width: 91.5%;
+    height: auto;
+  }
+  .col1, .col3{
+    display: none;
+  }
+  .col2{
+    float:left;
+    width: 100%;
+    border-right: 2px solid black;
+    border-left: 2px solid black; 
+    height: 98%;
+  }
+}
+
+@media only screen and (max-height: 300px){
+  .col2 h2{
+    display: none;
+  }
+  .row1{
+    width: 91.5%;
+    height: 10%;
+  }
+  #input{
+    float:left;
+    width:70%;
+    height:80%;
+    border-radius: 15px;
+    margin-left:5px;
+  }
+  #btn{
+    float:left;
+    width:20%;
+    height:95%;
+    border-radius:15px;
+    margin-left:5px;
+  }
+}

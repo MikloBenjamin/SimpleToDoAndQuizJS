@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="date.css">
+  </head>
+  <body>
+    <div class="row1">
+      <div class="col1" id="calendar">
+        <div id = "month"></div>
+        <div id = "weekdays"></div>
+        <div id = "days"></div>
+      </div>
+      <div class="col2" id="addtolist">
+        <h2 style = "font-size: 18px;">Add to list:</h2>
+        <input type="text" placeholder="Add to list" id="input">
+        <input type="button" value="Add" id="btn" onclick = "CheckIf()">
+      </div>
+      <div class="col3" id="date">
+        <div id = "year"></div>
+        <div id = "day"></div>
+        <div id = "time"></div>
+      </div>
+    </div>
+    <div class="row2">
+      <ul id="listul">
+        
+      </ul>
+    </div>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="js.js"></script>
+  </body>
+</html>

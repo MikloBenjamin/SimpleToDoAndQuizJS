@@ -1,0 +1,42 @@
+#month{
+    width: 98%;
+    border: 2px solid black;
+    height:20%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#days{
+    width: 98%;
+    margin-top : 2px;
+    height: 80%;
+    border-radius:5px;
+}
+.days, .weekdays, .daystoskip{
+    float: left;
+    width: 14.14%;
+    height: 15%;
+    border-radius: 5px;
+}
+#dayToday{
+    background: #8ea8b9;
+}
+#weekdays{
+    float:left;
+    width: 98%;
+    border: 2px solid black;
+    height: 15%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.daystoskip{
+    visibility: hidden;
+}
+@media screen and (min-width: 480px) and (max-width: 800px){
+    .days,.daystoskip{
+        font-size: 14px;
+    }
+    .weekdays{
+        font-size: 16px;
+    }
+}
